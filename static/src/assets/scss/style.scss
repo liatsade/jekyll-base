@@ -1,7 +1,5 @@
 // SCSS goes here.
-body {
-  background: pink;
-}
-h1 {
-  color: blue;
-}
+@import 'mixins';
+@import 'variables';
+@import 'header';
+

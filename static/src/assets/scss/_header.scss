@@ -1,0 +1,112 @@
+html {
+  font-size: 1rem;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  height: 8.125rem;
+  padding: .625rem 0 0 8.7rem;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-top: .7rem;
+}
+
+.header__logo__img {
+  width: 16.7rem;
+  height: 5.8rem;
+}
+
+.header__user {
+  position: relative;
+  display: flex;
+  margin-left: 1.875rem;
+  align-items: center;
+}
+
+.header__user__guest {
+  margin-left: -6.5rem;
+}
+
+.header__user__login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $blue;
+}
+
+.header__user__login__btn {
+  width: 9.5625rem;
+  height: 1.8125rem;
+  margin: .45rem;
+}
+
+.header__user__login__link {
+  font-family: $alef;
+  font-size: .875rem;
+  text-decoration: none;
+  color: $blue;
+}
+
+.header__user__login__link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__search {
+  position: absolute;
+  top: 0;
+  left: .9rem;
+  display: flex;
+  width: 7.8125rem;
+  height: 135%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $dark-blue;
+  cursor: pointer;
+}
+
+.header__search__img {
+  margin-top: 2.5rem;
+  height: 2.5rem;
+}
+
+.header__search__title {
+  @include font($regular, 2rem, $stanga);
+  margin: 0 2rem;
+  text-align: center;
+  color: $white;
+}
+
+//navigation
+.nav {
+  display: flex;
+  height: 3rem;
+  background-color: $grey;
+}
+
+.nav__list {
+  @include font($regular, 1.25rem, $almoni);
+  display: flex;
+  width: 82.875rem;
+  padding: 0;
+  align-items: center;
+  margin: auto;
+  list-style: none;
+  text-align: center;
+}
+
+.nav__list__item {
+  margin-left: 3.85rem;
+}
+
+.nav__list__item__link {
+  text-decoration: none;
+  color: $dark-grey;
+}
+
